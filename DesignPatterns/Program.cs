@@ -1,4 +1,5 @@
 ﻿using Builders.HtmlBuilder;
+using Builders.RecursiveBuilder;
 using System;
 
 namespace DesignPatterns
@@ -7,7 +8,8 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            HtmlBuilderRunner.Run();
+            //HtmlBuilderRunner.Run();
+            RecursiveBuilderRunner.Run();
         }
     }
 }
